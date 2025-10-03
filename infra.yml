@@ -4,8 +4,8 @@ Description: >
 
 Parameters:
   LatestAmiId:
-    Type: 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>'
-    Default: '/aws/service/ami-amazon-linux-latest/al2023-ami-kernel-default-x86_64'
+    Type: String
+    Default: 'ami-039a65ec6bd28e541' # ID AMI más reciente
     Description: 'AMI más reciente de Amazon Linux 2023.'
   VpcId:
     Type: String
@@ -20,7 +20,7 @@ Parameters:
     Description: 'Tipo de instancia EC2.'
   InstanceName:
     Type: String
-    Default: 'gabriel'
+    Default: 'gabriel-awshero'
     Description: 'Nombre de la instancia EC2.'
   SecurityGroupId:
     Type: String
