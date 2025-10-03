@@ -20,7 +20,7 @@ Parameters:
     Description: 'Tipo de instancia EC2.'
   InstanceName:
     Type: String
-    Default: 'nombre'
+    Default: 'gabriel'
     Description: 'Nombre de la instancia EC2.'
   SecurityGroupId:
     Type: String
